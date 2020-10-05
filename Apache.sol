@@ -5,7 +5,7 @@ pragma solidity ^0.5.0;
 ERC20 & TRC20 Token
 Symbol          : APCH
 Name            : APACHE
-Total supply    : 10000000000000000000000
+Total supply    : 10000
 Decimals        : 18
 @ apache MIT license
  */
@@ -224,6 +224,6 @@ contract CommonToken is Token {
 
 contract NCToken is CommonToken {
 
-  constructor() CommonToken("APACHE", "APCH", 18, 10000000000000000000000) public {}
+  constructor() CommonToken("APACHE", "APCH", 18, 10000) public {}
 
 }
