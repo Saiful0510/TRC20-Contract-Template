@@ -24,9 +24,9 @@ contract ERC20Interface {
    */
   string public symbol;
   /**
-  Returns the number of decimals the token uses - e. g. 18
+  Returns the number of decimals the token uses - e. g. 8
    */
-  uint18 public decimals;
+  uint8 public decimals;
   /**
   Returns the total token supply.
    */
