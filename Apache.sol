@@ -222,7 +222,7 @@ contract CommonToken is Token {
 
 }
 
-contract NCToken is APACHE {
+contract NCToken is CommonToken {
 
   constructor() CommonToken("APACHE", "APCH", 18, 10000000000000000000000) public {}
 
