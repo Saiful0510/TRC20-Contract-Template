@@ -16,17 +16,17 @@ Decimals        : 18
 // ---------------------------------------------------------------------
 contract ERC20Interface {
   /**
-  Returns the name of the token - e.g. "MyToken"
+  Returns the name of the token - e.g. "APACHE"
    */
   string public name;
   /**
-  Returns the symbol of the token. E.g. "HIX".
+  Returns the symbol of the token. E.g. "APCH".
    */
   string public symbol;
   /**
-  Returns the number of decimals the token uses - e. g. 8
+  Returns the number of decimals the token uses - e. g. 18
    */
-  uint8 public decimals;
+  uint18 public decimals;
   /**
   Returns the total token supply.
    */
